@@ -1,9 +1,10 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Jumbotron from './Jumbotron';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders Jumbotron component', () => {
+  render(<Jumbotron />);
+  const jumbotronElement = screen.getByTestId('jumbotron');
+  expect(jumbotronElement).toBeInTheDocument();
+  
 });
