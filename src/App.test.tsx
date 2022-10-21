@@ -1,10 +1,11 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import Jumbotron from './Jumbotron';
 
-test('renders Jumbotron component', () => {
-  render(<Jumbotron />);
-  const jumbotronElement = screen.getByTestId('jumbotron');
-  expect(jumbotronElement).toBeInTheDocument();
-  
+describe('renders Jumbotron component', () => {
+  it(`should render the initial state`, () => {
+    const view = render(
+      <Jumbotron />
+          );
+    expect(view).toMatchSnapshot();
+  });
 });
