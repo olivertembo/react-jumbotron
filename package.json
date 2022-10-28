@@ -31,6 +31,13 @@
     "type": "git",
     "url": "git@github.com:olivertembo/react-jumbotron.git"
   },
+  "keywords": [
+    "react-jumbotron",
+    "react jumbotron",
+    "react",
+    "jumbotron",
+    "image background"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
