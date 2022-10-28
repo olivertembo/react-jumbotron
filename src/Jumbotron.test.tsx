@@ -4,7 +4,7 @@ import Jumbotron from './Jumbotron';
 describe('renders Jumbotron component', () => {
   it(`should render the initial state`, () => {
     const view = render(
-      <Jumbotron />
+      <Jumbotron backgroundImage='' />
           );
     expect(view).toMatchSnapshot();
   });
