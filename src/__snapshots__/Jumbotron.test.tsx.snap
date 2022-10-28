@@ -6,18 +6,14 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="App"
-      >
-        <p />
-      </div>
+        style="background-image: url(); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh;"
+      />
     </div>
   </body>,
   "container": <div>
     <div
-      class="App"
-    >
-      <p />
-    </div>
+      style="background-image: url(); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh;"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
