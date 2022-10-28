@@ -1,7 +1,12 @@
 {
   "name": "react-jumbotron",
   "version": "0.1.0",
-  "private": true,
+  "author": "olivertembo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olivertembo/react-jumbotron/issues"
+  },
+  "homepage": "https://github.com/olivertembo/react-jumbotron#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -21,6 +26,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olivertembo/react-jumbotron.git"
   },
   "eslintConfig": {
     "extends": [
