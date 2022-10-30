@@ -1,9 +1,9 @@
-import { Jumbotron, JumbotronProps } from './Jumbotron';
-import { Story, Meta } from '@storybook/react/types-6-0';
-import exampleImage from './assets/example-image.jpg';
+import { Jumbotron, JumbotronProps } from "./Jumbotron";
+import { Story, Meta } from "@storybook/react/types-6-0";
+import exampleImage from "./assets/example-image.jpg";
 
 export default {
-  title: 'Example/Jumbotron',
+  title: "Example/Jumbotron",
   component: Jumbotron,
 } as Meta<JumbotronProps>;
 
