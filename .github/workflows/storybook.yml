@@ -12,6 +12,7 @@ jobs:
 
       - name: Install and Build
         run: |
+          yarn
           yarn build-storybook
 
       - name: Deploy
