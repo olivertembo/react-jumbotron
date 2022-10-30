@@ -19,4 +19,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           branch: feat/gh-pages
-          folder: docs-build
+          folder: docs
