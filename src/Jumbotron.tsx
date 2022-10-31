@@ -14,6 +14,14 @@ export interface JumbotronProps {
   children?: React.ReactNode;
 }
 
+/**
+ * @component Jumbotron
+ * @description Component Jumbotron.
+ * @example
+ * return (
+ *   <Jumbotron backgroundImage="..." />
+ * )
+ */
 export const Jumbotron = React.forwardRef(
   (props: JumbotronProps, ref: React.ForwardedRef<HTMLDivElement>) => {
     const {
