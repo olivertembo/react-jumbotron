@@ -16,7 +16,7 @@ jobs:
           yarn build-storybook
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.6.2
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           branch: feat/gh-pages
           folder: docs
